@@ -1,0 +1,26 @@
+T: 12
+K: 30
+trajgen_name: 'dispersion'
+horizon:
+    distance: 0.6
+    time: -1.5
+trajgen:
+    dispersion:
+        samples: 9
+    desired_speed: 0.4
+    min_delta: -0.38
+    max_delta: 0.38
+cost_fn:
+    obs_dist_w: 86.0
+    cost2go_w: 10.0
+    smoothing_discount_rate: 0.0
+    bounds_cost: 1000.0
+world_rep:
+    epsilon: 0.6
+control:
+    # cte_weight: 200
+    ate_weight: 0
+    he_weight: 0
+    # time_weight: 0
+    winding_weight: 0
+    # collision_weight: 150

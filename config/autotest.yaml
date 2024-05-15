@@ -1,0 +1,15 @@
+sys_name:
+  sys1: "TA+CLCBS+MPC" #PUSHR
+  sys2: "CLCBS+MPC" # GP-CA
+  sys3: "CLCBS+PP" # GP
+  sys4: "NHTTC" #LC
+  sys5: "TA+NHTTC" #LC-TA
+bench_name: "ex2"
+num_iterations: 100
+benchdir: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_pixelart_mpc/benchmarks"
+launchfile_TA: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_pixelart_mpc/launch/sim/autotest_TA.launch"
+launchfile_clcbs: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/clcbs_ros/launch/clcbs_ros.launch"
+launchfile_mpc: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_pixelart_mpc/launch/sim/autotest_mpc_"
+launchfile_nhttc: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_pixelart_mpc/launch/sim/autotest_nhttc_"
+bagdir: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_pixelart_mpc/bags"
+task_file: "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_pixelart_mpc/benchmarks/"

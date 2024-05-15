@@ -1,0 +1,26 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/arianaverges/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/arianaverges/catkin_ws/src/mushr/mushr_base/mushr_base/ackermann_cmd_mux/include/**",
+        "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/clcbs_ros/include/**",
+        "/home/arianaverges/catkin_ws/src/PuSHR-Noetic-main/mushr_coordination/include/**",
+        "/home/arianaverges/catkin_ws/src/mushr/mushr_base/vesc/vesc_ackermann/include/**",
+        "/home/arianaverges/catkin_ws/src/mushr/mushr_base/vesc/vesc_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
